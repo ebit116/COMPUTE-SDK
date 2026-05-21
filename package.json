@@ -1,0 +1,17 @@
+{
+  "name": "@computegpu/sdk",
+  "version": "1.0.0",
+  "description": "SDK for renting GPUs via COMPUTE GPU",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["gpu", "compute", "rental", "solana", "ai", "ml"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
